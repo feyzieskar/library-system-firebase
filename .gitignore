@@ -12,6 +12,12 @@ dist
 dist-ssr
 *.local
 
+# Sensitive files
+.env
+.env.*
+scripts/serviceAccountKey.json
+.firebase
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
